@@ -34,3 +34,14 @@ nav li a{
 nav li:hover{
     background-color: rgb(167, 173, 167);
 }
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightpink;
+    padding-left: 10px;
+}
+
+nav li:hover > .dropdown{
+    display: block;
+}
