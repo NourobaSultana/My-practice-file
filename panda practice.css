@@ -1,0 +1,9 @@
+.head{
+    display: inline;
+}
+.pic{
+    margin-top: 20px;
+}
+main label input{
+    display: block;
+}
